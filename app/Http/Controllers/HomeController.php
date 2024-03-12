@@ -10,6 +10,7 @@ class HomeController extends Controller
     // single action controller
     public function __invoke()
     {
-        return view('home');
+        $movies = Movie::all();
+        return view('home', compact('movies'));
     }
 }
