@@ -6,6 +6,12 @@
     <title>Document</title>
     <!-- importo le risorse di vite -->
     @vite('rescources/js/app.js')
+
+    <style>
+        body{
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <section id="movies">
