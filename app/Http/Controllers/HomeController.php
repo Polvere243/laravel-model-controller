@@ -7,5 +7,9 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    //
+    // single action controller
+    public function __invoke()
+    {
+        
+    }
 }
