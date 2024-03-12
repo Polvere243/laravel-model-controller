@@ -12,6 +12,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
+                    @forelse($movies as $movie)
                     <div class="card">
                         <h2></h2>
                         <h3></h3>
@@ -19,6 +20,9 @@
                         <h3></h3>
                         <h3></h3>
                     </div>
+                    @empty
+                    <h1>Non ci sono film</h1>
+                    @endforelse
                 </div>
             </div>
         </div>
