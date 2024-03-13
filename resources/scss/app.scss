@@ -1,5 +1,6 @@
 // @import '~bootstrap/scss/bootstrap';
 
-body {
-    display: block;
-}
+
+
+@use 'reset';
+@use 'generics';
